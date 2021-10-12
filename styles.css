@@ -116,10 +116,16 @@ hr {
   margin-right: 40px;
 }
 
-.foodie {
+.training {
   width: 20%;
   float: right;
   margin-left: 40px;
+}
+
+.foodie {
+  width: 20%;
+  float: left;
+  margin-right: 40px;
 }
 
 .talk {
