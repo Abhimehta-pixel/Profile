@@ -122,9 +122,15 @@ hr {
   margin-left: 40px;
 }
 
-.foodie {
+.building{
   width: 20%;
   float: left;
+  margin-left: 40px;
+}
+
+.foodie {
+  width: 20%;
+  float: right;
   margin-right: 40px;
 }
 
