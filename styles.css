@@ -32,7 +32,7 @@ nav{
 /*************************** Class Tagging ***************************/
 
 .navbar{
-  width: 75%;
+  width: 85%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -41,10 +41,14 @@ nav{
 
 .logo{
   cursor: pointer;
-  text-decoration: none;
-  color: white;
   text-transform: uppercase;
 }
+
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+
 .navbar ul li{
   list-style: none;
   display: inline-block;
@@ -54,18 +58,6 @@ nav{
 .navbar ul li a{
   text-decoration: none;
   color: white;
-}
-
-.add-on-sub-menu{
-  display: none;
-}
-
-.navbar ul li:hover::after .add-on-sub-menu{
-  display: block;
-  position: absolute;
-  background: black;
-  margin-top: 15px;
-  margin-left: -15px;
 }
 
 .navbar ul li::after{
