@@ -42,11 +42,16 @@ nav{
 .logo{
   cursor: pointer;
   text-transform: uppercase;
+  font-weight:100;
 }
 
 .logo a{
   text-decoration: none;
   color: white;
+}
+
+.navbar .home{
+  font-weight: bold;
 }
 
 .navbar ul li{
