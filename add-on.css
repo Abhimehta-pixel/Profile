@@ -104,6 +104,10 @@ nav{
   opacity: 1;
 }
 
+.info ul li{
+  list-style:decimal;
+}
+
 .info{
   margin-bottom: 80px;
 }
