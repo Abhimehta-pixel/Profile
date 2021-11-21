@@ -24,11 +24,69 @@ hr {
   margin: 50px auto 50px auto;
 }
 
+nav{
+  background-color: #086469;
+  opacity: 2;
+}
+
 /*************************** Class Tagging ***************************/
+
+.navbar{
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.add-on-sub-menu{
+  display: none;
+}
+
+.navbar ul li:hover::after .add-on-sub-menu{
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #79B4B7;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+}
+
 .top-container {
   background-color: #79B4B7;
   position: relative;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 24px;
 }
 
