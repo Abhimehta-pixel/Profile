@@ -8,11 +8,12 @@ body {
 h2 {
   color: #79B4B7;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 h3 {
   color: #79B4B7;
+  font-weight: normal;
 }
 
 hr {
